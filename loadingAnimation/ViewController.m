@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
-
+#import "AnimtionView.h"
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet AnimtionView *animationView;
 @end
 
 @implementation ViewController
@@ -22,6 +23,9 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)startAnimation:(UIButton *)sender {
+    [self.animationView startAnimation];
 }
 
 @end

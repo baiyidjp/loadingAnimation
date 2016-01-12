@@ -15,6 +15,8 @@
 		0C7681A91C34CCCE0024AA30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7681A71C34CCCE0024AA30 /* LaunchScreen.storyboard */; };
 		0C7681B41C34CCCE0024AA30 /* loadingAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7681B31C34CCCE0024AA30 /* loadingAnimationTests.m */; };
 		0C7681BF1C34CCCE0024AA30 /* loadingAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7681BE1C34CCCE0024AA30 /* loadingAnimationUITests.m */; };
+		0C7681CF1C34CCFF0024AA30 /* AnimtionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7681CE1C34CCFF0024AA30 /* AnimtionView.m */; };
+		0C7681D21C34D0820024AA30 /* AnimationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7681D11C34D0820024AA30 /* AnimationLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		0C7681BA1C34CCCE0024AA30 /* loadingAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loadingAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7681BE1C34CCCE0024AA30 /* loadingAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loadingAnimationUITests.m; sourceTree = "<group>"; };
 		0C7681C01C34CCCE0024AA30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C7681CD1C34CCFF0024AA30 /* AnimtionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimtionView.h; sourceTree = "<group>"; };
+		0C7681CE1C34CCFF0024AA30 /* AnimtionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimtionView.m; sourceTree = "<group>"; };
+		0C7681D01C34D0820024AA30 /* AnimationLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationLayer.h; sourceTree = "<group>"; };
+		0C7681D11C34D0820024AA30 /* AnimationLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		0C7681981C34CCCE0024AA30 /* loadingAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				0C7681CC1C34CCED0024AA30 /* AnimationView */,
 				0C76819C1C34CCCE0024AA30 /* AppDelegate.h */,
 				0C76819D1C34CCCE0024AA30 /* AppDelegate.m */,
 				0C76819F1C34CCCE0024AA30 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				0C7681C01C34CCCE0024AA30 /* Info.plist */,
 			);
 			path = loadingAnimationUITests;
+			sourceTree = "<group>";
+		};
+		0C7681CC1C34CCED0024AA30 /* AnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				0C7681CD1C34CCFF0024AA30 /* AnimtionView.h */,
+				0C7681CE1C34CCFF0024AA30 /* AnimtionView.m */,
+				0C7681D01C34D0820024AA30 /* AnimationLayer.h */,
+				0C7681D11C34D0820024AA30 /* AnimationLayer.m */,
+			);
+			path = AnimationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +293,9 @@
 			files = (
 				0C7681A11C34CCCE0024AA30 /* ViewController.m in Sources */,
 				0C76819E1C34CCCE0024AA30 /* AppDelegate.m in Sources */,
+				0C7681D21C34D0820024AA30 /* AnimationLayer.m in Sources */,
 				0C76819B1C34CCCE0024AA30 /* main.m in Sources */,
+				0C7681CF1C34CCFF0024AA30 /* AnimtionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
